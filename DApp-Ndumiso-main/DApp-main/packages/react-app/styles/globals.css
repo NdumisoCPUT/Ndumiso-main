@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  @apply bg-forest text-snow p-4 shadow-md flex justify-between items-center;
+}
+
+.container {
+  padding: 40px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  width: 450px; 
+  text-align: center;
+}
+
+.header {
+  
+  padding: 20px; 
+  border-radius: 10px 10px 0 0; 
+  margin: -40px -40px 20px -40px; 
+  color: #155724; 
+  font-size: 26px; 
+  font-weight: bold; 
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px; 
+  color: #333333; 
+  font-weight: bold;
+}
+
+.address, .transaction {
+  margin-bottom: 15px;
+  color: #555555; 
+}
+
+.input-group {
+  margin-bottom: 15px; 
+}
+
+input {
+  width: 100%; 
+  padding: 10px; 
+  margin: 5px 0;
+  border: 1px solid #dddddd; 
+  border-radius: 5px; 
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+.primary-button {
+  width: 100%; 
+  padding: 10px; 
+  color: #ffffff; 
+  background-color: #007BFF; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700; 
+  font-size: 16px; 
+  margin: 5px 0; 
+  box-sizing: border-box; 
+}
+
+.primary-button:hover {
+  background-color: #0056b3; 
+}
+
+
+
